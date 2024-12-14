@@ -1,0 +1,60 @@
+{
+    "siteName": "Ashutosh Singh.",
+    "siteGeneral": {
+        "theme": "light",
+        "author": "Ashutosh Singh",
+        "author_email": "ashutosh31051996@gmail.com",
+        "author_phone": "+44 7774982401",
+        "author_address": "Newcastle Upon Tyne, England, United Kingdom",
+        "yearsOfExperience": "03+",
+        "completedProjects": "04+",
+        "companiesWorked": "02+",
+        "description": "Skilled in data analysis, predictive modeling, SQL, and delivering actionable insights for strategic decisions.",
+        "copyright": "Copyright ©2024 Ashutosh Singh. All right reserved"
+    },
+    "configKeys": {
+        "web3form_access_key": "f38881e2-760d-4bcf-8059-53546d27de21"
+    },
+    "certificates": [
+        {
+            "date": "2024",
+            "title": "Career Essentials in Project Management",
+            "from": "Microsoft and LinkedIn",
+            "image": "certificates/certificate-1.png",
+            "verify_url": "https://www.linkedin.com/learning/certificates/4ece803b6ff76b30aa13243194e1c3c6a97354501088485f3bd131468229d3f8?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bm6WLO8qMRB6r%2Fs%2Bsx8k8iQ%3D%3D"
+        },
+        {
+            "date": "2024",
+            "title": "Data Analyst Associate",
+            "from": "DataCamp",
+            "image": "certificates/certificate-2.png",
+            "verify_url": "https://www.datacamp.com/certificate/DAA0014254778244"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Bank Loan Default Analysis using EDA",
+            "description": "Performed Exploratory Data Analysis (EDA) to identify patterns in loan defaults, enabling better decisions on loan approvals and risk management.",
+            "image": "projects/project-1.png",
+            "demo_url": "",
+            "most_recent": true,
+            "pdf_link": "projects/pdf/Bank_Loan_Report_Python.pdf"
+        },
+        {
+            "title": "Instagram User Engagement Analysis with SQL",
+            "description": "Analyzed Instagram user behavior using SQL to identify engagement patterns, loyalty trends, and insights for campaigns and growth strategies.",
+            "image": "projects/project-2.png",
+            "demo_url": "",
+            "most_recent": false,
+            "pdf_link": "https://drive.google.com/file/d/1GIbMoHk-2VLoPPiD1PwpAHTeKx4TR-Z_/view?usp=drive_link"
+        },
+        {
+            "title": "Job Data and User Engagement Analysis with SQL",
+            "description": "Utilized SQL to analyze software user engagement, retention trends, and email performance, offering insights for improved user strategies.",
+            "image": "projects/project-3.png",
+            "demo_url": "",
+            "most_recent": true,
+            "pdf_link": "https://drive.google.com/file/d/1P4rjM_zflxFD9MmJigECVNiaTpLsOE_0/view?usp=sharing"
+        }
+    ]
+}
