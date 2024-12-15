@@ -306,6 +306,23 @@ function populateJsonToMarkup() {
       const web3FormAccessKey = document.getElementById('web3FormKey');
       web3FormAccessKey.value = data.configKeys.web3form_access_key;
 
+      // Populate meta tags
+      const metaAuthor = document.querySelector('meta[name="author"]');
+      const metaKeywords = document.querySelector('meta[name="keywords"]');
+      const metaDescription = document.querySelector('meta[name="description"]');
+
+      if (metaAuthor) {
+        metaAuthor.content = data.siteGeneral.author_name || "Ashutosh Singh";
+      }
+
+      if (metaKeywords) {
+        metaKeywords.content = data.siteGeneral.keywords || "Portfolio, Data Science, Analyst, Data Engineer";
+      }
+
+      if (metaDescription) {
+        metaDescription.content = data.siteGeneral.description || "Skilled in data analysis, predictive modeling, SQL, and delivering actionable insights for strategic decisions.";
+      }
+
       // set theme from json 
       const getJsonTheme = data.siteGeneral.theme || "light";
       const themeName = getJsonTheme === "light" ? "light" : "dark";
